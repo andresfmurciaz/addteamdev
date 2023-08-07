@@ -10,9 +10,9 @@ return <section className="formulario">
         <h2>
             Rellena el formulario para crear el colaborador
         </h2>
-        <CampoTexto></CampoTexto>
-        <CampoTexto></CampoTexto>
-        <CampoTexto></CampoTexto>
+        <CampoTexto title='Nombre' placeholder='Ingrese su nombre'></CampoTexto>
+        <CampoTexto title='Puesto' placeholder='Ingrese su puesto'></CampoTexto>
+        <CampoTexto title='Foto' placeholder='Ingrese su foto'></CampoTexto>
         
 
     </form>

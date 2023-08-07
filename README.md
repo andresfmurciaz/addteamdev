@@ -71,3 +71,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 APRENDIDP 
 crear un proyecto y correrlo , cambiar el title y icon
+como pasar props para un componenete
