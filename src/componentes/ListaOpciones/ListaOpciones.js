@@ -11,9 +11,9 @@ const ListaOpciones = ()=>{
         "Gestion y innovacion"
     ]
 return <div className='lista-opciones'>
-    <label>equipos</label> 
+    <label>Equipos</label> 
     <select>
-{/* importamteeeeeeeeeeeee */}
+        {/* importamteeeeeeeeeeeee */}
         {equipos.map((equipo,index)=>{
             return <option key={index}>{equipo}</option>
         })}
