@@ -1,7 +1,8 @@
 
 import "./Formulario.css"
-import CampoTexto from "../CampoTexto/CampoTexto" 
 
+import CampoTexto from "../CampoTexto/CampoTexto" 
+import ListaOpciones from "../ListaOpciones/ListaOpciones"
 
 const Formulario = ()=> { 
 
@@ -13,7 +14,7 @@ return <section className="formulario">
         <CampoTexto title='Nombre' placeholder='Ingrese su nombre'></CampoTexto>
         <CampoTexto title='Puesto' placeholder='Ingrese su puesto'></CampoTexto>
         <CampoTexto title='Foto' placeholder='Ingrese su foto'></CampoTexto>
-        
+        <ListaOpciones></ListaOpciones>
 
     </form>
 </section>
