@@ -72,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 APRENDIDP 
 crear un proyecto y correrlo , cambiar el title y icon
 como pasar props para un componenete
+renderizar ñistas utilizando el metodo map
+elementos anidados con el prop children
+reaccionar a eventos dl Dom COMO EL ONsUBMIT DE NUESTRO FORM
