@@ -6,8 +6,16 @@ import ListaOpciones from "../ListaOpciones/ListaOpciones"
 import Boton from "../Boton/Boton"
 const Formulario = ()=> { 
 
+const manejarEnvio =(event)=>{
+    // nos ayudo para que no se recargue el formulario
+event.preventDefault()
+console.log('manejando envio',event)
+
+}
+
+
 return <section className="formulario">
-    <form>
+    <form onSubmit={manejarEnvio}>
         <h2>
             Rellena el formulario para crear el colaborador
         </h2>
